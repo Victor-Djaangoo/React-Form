@@ -23,12 +23,17 @@ Este projeto consiste em uma página de formulário desenvolvida em **React.js**
 - **CSS**: Estilos e design visual da aplicação.
 
 - ## Estrutura de Diretorios
-- /
+/
 ├── public/                # Arquivos públicos, como index.html e favicon
+│   └── index.html         # Arquivo HTML principal
+│
 ├── src/                   # Código-fonte da aplicação
-│   ├── components/        # Componentes reutilizáveis do React
-│   ├── styles/            # Estilos CSS para componentes
+│   ├── components/        # Componentes React
+│   ├── styles/            # Arquivos de estilo CSS
 │   ├── App.js             # Componente principal da aplicação
-│   ├── index.js           # Ponto de entrada da aplicação
+│   ├── index.js           # Ponto de entrada do React
 │   └── ...                # Outros arquivos e componentes
-└── package.json           # Dependências e scripts do projeto
+│
+├── .gitignore             # Arquivos ignorados pelo Git
+├── package.json           # Dependências e scripts do projeto
+└── README.md              # Documentação do projeto

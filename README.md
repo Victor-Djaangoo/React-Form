@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este projeto consiste em uma página de formulário desenvolvida em **React.js** com **HTML** e **CSS**. A aplicação permite salvar informações de usuários como Nome, Idade e Email. Além disso, exibe uma lista de usuários cadastrados e fornece a opção de deletar cada um deles.
+Este projeto consiste em uma página de formulário desenvolvida em **React.js** com **HTML** e **CSS**. A aplicação permite salvar informações de usuários como Nome, Idade e Email. Além disso, exibe uma lista de usuários cadastrados e fornece a opção de deletar cada um deles. O proposito principal foi poder utiliza-lo para consumir a **API** de outro projeto: https://github.com/Victor-Djaangoo/Nodejs-API
 
 ## Funcionalidades
 

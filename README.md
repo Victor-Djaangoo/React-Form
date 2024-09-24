@@ -1,8 +1,34 @@
-# React + Vite
+# Formulário de Cadastro de Usuários
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+Este projeto consiste em uma página de formulário desenvolvida em **React.js** com **HTML** e **CSS**. A aplicação permite salvar informações de usuários como Nome, Idade e Email. Além disso, exibe uma lista de usuários cadastrados e fornece a opção de deletar cada um deles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
+
+- **Cadastro de Usuários:**
+  - Preencha o formulário com Nome, Idade e Email.
+  - Clique no botão "Salvar" para adicionar o usuário à lista.
+
+- **Visualização de Usuários Cadastrados:**
+  - Uma lista exibindo todos os usuários cadastrados, mostrando Nome, Idade e Email.
+
+- **Remoção de Usuários:**
+  - Cada usuário cadastrado possui um botão "Deletar" para removê-lo da lista.
+
+## Tecnologias Utilizadas
+
+- **React.js**: Utilizado para construir a interface e gerenciar o estado da aplicação.
+- **HTML**: Estrutura do layout da página.
+- **CSS**: Estilos e design visual da aplicação.
+
+- ## Estrutura de Diretorios
+- /
+├── public/                # Arquivos públicos, como index.html e favicon
+├── src/                   # Código-fonte da aplicação
+│   ├── components/        # Componentes reutilizáveis do React
+│   ├── styles/            # Estilos CSS para componentes
+│   ├── App.js             # Componente principal da aplicação
+│   ├── index.js           # Ponto de entrada da aplicação
+│   └── ...                # Outros arquivos e componentes
+└── package.json           # Dependências e scripts do projeto
